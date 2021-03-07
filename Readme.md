@@ -1,6 +1,8 @@
 This is a simple react web-app to quickly produce pdfs with Produkt Lables for our CSA farm. 
 
-To set it up you need docker and docker-compose on your server. By default this app runs on port 3100. It is not ready to run on it's own - you need a reverse proxy in front of it (nginx proxy manager is the way to go - check out this tutorial https://www.youtube.com/watch?v=cjJVmAI1Do4&t=1935s ). If you want to change the port you can do so in docker-compose.yml
+To set it up you need docker and docker-compose on your server. By default this app runs on port 3100. It is not ready to run on it's own - you need a reverse proxy in front of it (nginx proxy manager is the way to go - check out this tutorial https://www.youtube.com/watch?v=cjJVmAI1Do4&t=1935s ). If you want to change the port you can do so in docker-compose.yml.
+
+To install clone the repository and cd into the folder. Then simply run docker-compose up -d. If your DNS, reverse proxy and SSL are setup correctly it should just work.
 
 If you wish to adapt it, just change the logo file in /src/img and change the title of the lable to whatever you like in /src/Pdf-View.js.
 
