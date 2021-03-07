@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  sample-prod:
+    container_name: label-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3100:80'
