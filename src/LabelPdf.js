@@ -45,7 +45,7 @@ export default function LabelPdf(props) {
           justifyContent: "flex-start",
           alignContent: "center",
           fontFamily: "Bradley",
-          marginLeft: "5px"
+          marginLeft: "10px"
         },
         table: {
           display: "table",
