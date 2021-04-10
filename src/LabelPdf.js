@@ -3,7 +3,7 @@ import { Page, Text, View, Image, Font, Document, StyleSheet, PDFViewer } from '
 import logo from './img/logo.png';
 import bradley from "./img/bradhitc_bold.ttf";
 
-export default function PdfView(props) {
+export default function LabelPdf(props) {
     Font.register({family: "Bradley", src: bradley})
 
     let subFontSize = null;
